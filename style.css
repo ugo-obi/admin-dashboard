@@ -183,3 +183,35 @@
 .header-actions button:hover {
     background-color: #1278b0;
 }
+
+.content {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 24px;
+    padding: 24px;
+    background-color: #f9f9f9;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+.cards {
+    background-color: white;
+    border-radius: 8px;
+    padding: 24px;
+    border-left: 6px solid #f0b429;
+}
+
+.cards h3 {
+    font-weight: bold;
+    margin-bottom: 12px;
+    color: #111;
+}
+
+.cards p {
+    font-size: 0.9rem;
+    color: #555;
+}
+
